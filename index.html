@@ -7,16 +7,112 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css ">
 
-    <title>Hello, world!</title>
+    <title>Hoteles</title>
   </head>
   <body>
-    <h1>Hehe, world!</h1>
+	<div class="jumbotron">
+		<h1>Hoteles</h1>    		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<p>Encuentra los mejores hoteles en la ciudad de Medellín</p>			
+			</div>
+			<div class="col-4">
+				<p>Haz tus reservas a tan sólo un clic</p>				
+			</div>
+			<div class="col-4">
+				<p>Administra tu estadía y disfruta de todos los servicios de hotelería ofrecidos por nuestros proveedores</p>				
+			</div>
+		</div>
+		<div class="d-flex flex-wrap flex-row-reverse">
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Poblado Apartaloft</h1>
+					<p>Descripción: Casa/Apartamento</p>	
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>	
+				</div>
+			</div>	
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Hotel Dann Carlton Medellín</h1>
+					<p>Descripción: Hotel</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+				</div>	
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Oasis En El Centro De Medellin</h1>
+					<p>Descripción: Casa/Apartamento, Alojamiento completo, Tamaño 121 m2, 6 huéspedes, 3 habitaciones, 2 baños</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>	
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Hotel Madrid</h1>
+					<p>Descripción: Ubicado en pleno centro</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>	
+				</div>
+			</div>	
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Apartaloft Lima</h1>
+					<p>Descripción: Casa/Apartamento, cerca al Parque Arví</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>	
+				</div>
+			</div>	
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h1>Hotel Premium Plaza</h1>
+					<p>Descripción: Casa/Apartamento, Alojamiento completo, Súper cómodo</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>	
+				</div>
+			</div>		
+		</div>		
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="col-4 d-flex flex-column">
+				<a href="#">Facebook</a>			
+				<a href="#">Twitter</a>			
+				<a href="#">Linkedin</a>			
+				<a href="#">Instagram</a>			
+			</div>
+			<div class="col-4">
+				<address>
+					<h3>El Poblado, Medellín, Colombia</h3>
+					<p>+57018000</p>
+					<p>gato@gato.com</p>
+				</address>			
+			</div>
+			<div class="col-4 d-flex flex-column align-items-end">
+				<a href="#">Nosotros</a>
+				<a href="#">Precios</a>
+				<a href="#">Términos y Condiciones</a>
+				<a href="#">Contacto</a>			
+			</div>
+		</div>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
